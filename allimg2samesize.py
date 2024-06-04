@@ -15,4 +15,4 @@ def convert(indire,outdir,width=128,height=128):
 indir=r"./imgs_/*.jpg"
 outdir=r"./imgs"
 for indir in glob.glob(indir):
-     convert(indir,outdir)
+     convert(indir,outdir, 256, 256)
